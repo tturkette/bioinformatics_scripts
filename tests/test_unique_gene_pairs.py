@@ -34,3 +34,4 @@ def test_unique_gene_pairs():
         assert unique_gene_pairs_data == {
             'gene1': [('gene2', ['value1', 'value2']), ('gene3', ['value3', 'value4'])],
             'gene4': [('gene5', ['value7', 'value8'])]
+        }

@@ -1,7 +1,7 @@
 import os
 import tempfile
 import pytest
-from your_module_name import cluster_reader_dict_writer, pathways_reader_dict_writer, cluster_pathway_comparisons
+from cluster_pathway_analysis import cluster_reader_dict_writer, pathways_reader_dict_writer, cluster_pathway_comparisons
 
 # Test data files
 clusters_file = "test_clusters.txt"

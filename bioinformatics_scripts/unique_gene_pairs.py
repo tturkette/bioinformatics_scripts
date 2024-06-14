@@ -19,7 +19,7 @@ def contains_gene(dictionary, key, target_gene):
      return any(target_gene == gene for gene, _ in dictionary.get(key, []))
 
 def unique_gene_pairs(filename, output_dir):
-     """
+    """
     Process a file containing gene pairs and their associated values, and produce
     an output file and a pickle file with unique gene pairs.
 
